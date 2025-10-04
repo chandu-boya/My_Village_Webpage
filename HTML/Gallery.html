@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - POTTIPADU Village</title>
+  <link rel="stylesheet" href="../CSS/style123.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-fixed">
+    <div class="header-content">
+      <h1><i class="bi bi-house-heart-fill"></i> POTTIPADU Village</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Village</a></li>
+          <li><a href="Gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="festival.html">Festival</a></li>
+          <li><a href="farming.html">Farming</a></li>
+          <li><a href="canal.html">Canal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="margin-top: 80px;">
+    <!-- Hero Section -->
+    <section class="gallery-hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="animate__animated animate__fadeInDown">Village Gallery</h1>
+          <div class="motif-divider"></div>
+          <p class="animate__animated animate__fadeInUp">Explore the beauty of POTTIPADU through stunning images</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Navigation -->
+    <section class="gallery-nav">
+      <div class="container">
+        <div class="gallery-categories-nav">
+          <a href="#nature" class="category-nav-item active" data-category="nature">
+            <i class="bi bi-tree-fill"></i>
+            <span>Nature</span>
+          </a>
+          <a href="#animals" class="category-nav-item" data-category="animals">
+            <i class="bi bi-heart-fill"></i>
+            <span>Animals</span>
+          </a>
+          <a href="#people" class="category-nav-item" data-category="people">
+            <i class="bi bi-person-fill"></i>
+            <span>Famous Persons</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nature Gallery Section -->
+    <section id="nature" class="gallery-section active">
+      <div class="container">
+        <div class="section-header">
+          <h2><i class="bi bi-tree-fill"></i> Nature Gallery</h2>
+          <p>Beautiful landscapes, trees, flowers, and natural wonders of our village</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n1.jpg" alt="Village Landscape">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Landscape</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n2.jpg" alt="Natural Beauty">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Natural Beauty</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n3.jpg" alt="Green Fields">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Green Fields</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n4.jpg" alt="Village Scenery">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Scenery</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n5.jpg" alt="Natural Environment">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Natural Environment</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n6.jpg" alt="Village Nature">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Nature</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-description">
+          <h3>Natural Beauty of POTTIPADU</h3>
+          <p>Our village is blessed with abundant natural beauty, including lush green fields, ancient trees, colorful flowers, and scenic landscapes. The natural environment provides a peaceful and healthy living space for our community.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animals Gallery Section -->
+    <section id="animals" class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <h2><i class="bi bi-heart-fill"></i> Animals Gallery</h2>
+          <p>Local wildlife, domestic animals, and farm animals of our village</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n7.jpg" alt="Village Animals">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Animals</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="../Assests/Nature Images/n8.jpg" alt="Farm Animals">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Farm Animals</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0025.jpg" alt="Domestic Animals">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Domestic Animals</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0017.jpg" alt="Wildlife">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Wildlife</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0018.jpg" alt="Birds">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Birds</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0019.jpg" alt="Animal Life">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Animal Life</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-description">
+          <h3>Animal Life in POTTIPADU</h3>
+          <p>Our village is home to various animals including cows, buffaloes, goats, and poultry. We also have local wildlife and birds that add to the natural beauty. Animals are an integral part of our village life and farming activities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Famous Persons Gallery Section -->
+    <section id="people" class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <h2><i class="bi bi-person-fill"></i> Famous Persons Gallery</h2>
+          <p>Notable people, leaders, and respected members of our village community</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0020.jpg" alt="Village Leader">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Leader</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0021.jpg" alt="Community Member">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Community Member</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0022.jpg" alt="Village Elder">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Elder</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0023.jpg" alt="Respected Person">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Respected Person</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0024.jpg" alt="Community Leader">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Community Leader</span>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assests/IMG-20250814-WA0025.jpg" alt="Village Notable">
+            <div class="gallery-overlay">
+              <i class="bi bi-zoom-in"></i>
+              <span>Village Notable</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-description">
+          <h3>Notable People of POTTIPADU</h3>
+          <p>Our village is proud to have many respected and notable people who have contributed to the community's development. These include village leaders, elders, successful farmers, and community workers who inspire future generations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Info -->
+    <section class="gallery-info">
+      <div class="container">
+        <div class="info-grid">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="bi bi-camera-fill"></i>
+            </div>
+            <h3>Photo Collection</h3>
+            <p>Our gallery contains carefully selected images that showcase the beauty and diversity of POTTIPADU village life.</p>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="bi bi-heart-fill"></i>
+            </div>
+            <h3>Community Pride</h3>
+            <p>These images represent our community's pride in our village, culture, and natural surroundings.</p>
+          </div>
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="bi bi-share-fill"></i>
+            </div>
+            <h3>Share & Connect</h3>
+            <p>Feel free to share these images with friends and family to spread awareness about our beautiful village.</p>
+          </div>
+        </div>
+        
+        <div class="call-to-action">
+          <a href="index.html" class="cta-button">Back to Home</a>
+          <a href="festival.html" class="section-link">Explore Festivals</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-content">
+      <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" alt="">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="bi bi-house-heart-fill"></i> POTTIPADU Village</h3>
+        <p>A beautiful village with rich culture and traditions</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="festival.html">Festivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p><i class="bi bi-geo-alt-fill"></i> POTTIPADU Village</p>
+        <p><i class="bi bi-telephone-fill"></i> Village Office</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 POTTIPADU Village. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../JS/script.js"></script>
+  <script>
+    // Gallery specific JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+      const categoryNavItems = document.querySelectorAll('.category-nav-item');
+      const gallerySections = document.querySelectorAll('.gallery-section');
+      
+      // Category navigation functionality
+      categoryNavItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Remove active class from all nav items and sections
+          categoryNavItems.forEach(nav => nav.classList.remove('active'));
+          gallerySections.forEach(section => section.classList.remove('active'));
+          
+          // Add active class to clicked item
+          this.classList.add('active');
+          
+          // Show corresponding section
+          const targetCategory = this.getAttribute('data-category');
+          const targetSection = document.getElementById(targetCategory);
+          if (targetSection) {
+            targetSection.classList.add('active');
+          }
+        });
+      });
+      
+      // Smooth scroll to sections
+      categoryNavItems.forEach(item => {
+        item.addEventListener('click', function() {
+          const targetId = this.getAttribute('href');
+          const targetSection = document.querySelector(targetId);
+          
+          if (targetSection) {
+            const headerHeight = document.querySelector('.header-fixed').offsetHeight;
+            const targetPosition = targetSection.offsetTop - headerHeight;
+            
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+    
+    // Lightbox functionality
+    function openLightbox(element) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxCaption = document.getElementById('lightbox-caption');
+      
+      const img = element.querySelector('img');
+      const caption = element.querySelector('.gallery-overlay span').textContent;
+      
+      // Set image source before showing lightbox
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightboxCaption.textContent = caption;
+      
+      // Display lightbox with animation
+      lightbox.style.display = 'flex';
+      setTimeout(() => {
+        lightbox.style.opacity = '1';
+      }, 10);
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.style.opacity = '0';
+      setTimeout(() => {
+        lightbox.style.display = 'none';
+      }, 300);
+      document.body.style.overflow = 'auto';
+    }
+    
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeLightbox();
+      }
+    });
+  </script>
+</body>
+</html>
